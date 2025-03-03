@@ -8,7 +8,7 @@ Implement the visitor design pattern based from the given diagram. Refer to this
 
 Test your codes before the given client program:
 
-''' java
+```java
 public class TelcoPromo {
   public static void main(String[] args) {
     TelcoSubscription smart = new Telco(15, 500, Smart,false);
@@ -33,6 +33,6 @@ public class TelcoPromo {
                                    unli.showUnliCallsTextOffer(ditto.getTelcoName(), ditto.getUnliCallText()));
   }
 }
-'''
+```
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/simonnCastro/LAB-SW-3-Visitor-Pattern/blob/main/VisitorPatternUML.png)
